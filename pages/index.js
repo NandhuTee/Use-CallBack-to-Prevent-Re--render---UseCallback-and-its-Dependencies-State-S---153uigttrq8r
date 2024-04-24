@@ -12,9 +12,8 @@ export default function Home() {
         setTimeout(()=>{
             setMessage('')
         },3000)
-    },[])
+    }, [])
 
-    
     return (    
         <div>
             <button onClick={addItem}>Add Item</button>
